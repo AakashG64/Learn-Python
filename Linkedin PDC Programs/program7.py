@@ -1,2 +1,11 @@
-lst = [1,2,3,4,5,6,7,8,9,10]
+# Sort a List in Ascending And Descending Order
+lst = [5,4,1,2,8]
 print(sorted(lst, reverse= True))
+print(sorted(lst))
+
+# Reverse a List
+print(lst[::-1])
+lst.reverse()
+print(lst)
+reversed(lst)
+print(lst)
